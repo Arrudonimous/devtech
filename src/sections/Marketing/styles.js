@@ -21,6 +21,7 @@ export const MarkContainer = styled.div`
 
     @media(max-width: 925px){
       margin-top: 54px;
+      margin-left: 8px;
     }
 
   }
@@ -50,6 +51,7 @@ export const MarkContainer = styled.div`
   @media(max-width: 925px){
     flex-direction: column;
     display: flex;
+    justify-content: center;
     padding: 38px 32px;
   }
 
@@ -131,4 +133,13 @@ export const IconContainer = styled.div`
     opacity: 1;
     color: #fff;
   }
+`
+
+export const CardContainer = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+
 `
