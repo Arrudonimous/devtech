@@ -1,5 +1,5 @@
 import { FiTrendingUp, FiBriefcase } from 'react-icons/fi';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import {
   Container,
   MarkContainer,
