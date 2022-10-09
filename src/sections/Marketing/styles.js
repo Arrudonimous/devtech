@@ -138,8 +138,11 @@ export const IconContainer = styled.div`
 export const CardContainer = styled.div`
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   padding: 5px;
-
+  justify-content: flex-end;
+  @media(max-width: 925px){
+    flex-direction: column;
+  }
 `

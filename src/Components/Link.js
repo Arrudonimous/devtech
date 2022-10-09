@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export default styled.a`
   padding: 12px 32px;
   justify-content: center;
-  /* display: flex; */
   font-size: 16px;
   font-weight: bold;
   background-color: #248DE9;

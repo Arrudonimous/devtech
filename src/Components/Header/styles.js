@@ -35,6 +35,8 @@ export const Nav = styled.nav`
 
     &:hover{
       color: #F6F6F6;
+      transform: scale(1.05);
+      cursor: pointer;
     }
 
     @media(max-width: 925px){
