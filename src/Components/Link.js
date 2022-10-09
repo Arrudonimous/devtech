@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export default styled.a`
   padding: 12px 32px;
   justify-content: center;
@@ -21,4 +20,4 @@ export default styled.a`
   &:active{
     background-color: #1579d1;
   }
-`
+`;

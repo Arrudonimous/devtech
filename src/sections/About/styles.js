@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const AboutContainer = styled.div`
   background-color: #F6F7F9;
   padding: 70px 256px;
@@ -40,4 +39,4 @@ export const AboutContainer = styled.div`
     padding: 63px 42px;
   }
 
-`
+`;

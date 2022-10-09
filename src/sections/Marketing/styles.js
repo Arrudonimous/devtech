@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
-
 export const Container = styled.div`
   width: 100%;
   max-width: 1100px;
   margin: 30px auto;
   margin-top: 0px;
-`
+`;
 
 export const MarkContainer = styled.div`
   background-color: #fff;
@@ -55,7 +54,7 @@ export const MarkContainer = styled.div`
     padding: 38px 32px;
   }
 
-`
+`;
 export const MarkContent = styled.div`
   width: 440px;
 
@@ -92,7 +91,7 @@ export const MarkContent = styled.div`
     flex-direction: column;
     width: 100%;
   }
-`
+`;
 export const MarkCard = styled.div`
   width: 272px;
   height: 304.45px;   
@@ -113,7 +112,7 @@ export const MarkCard = styled.div`
     margin-bottom: 19px;
   }
 
-`
+`;
 export const IconContainer = styled.div`
   width: 80px;
   height: 80px;
@@ -133,7 +132,7 @@ export const IconContainer = styled.div`
     opacity: 1;
     color: #fff;
   }
-`
+`;
 
 export const CardContainer = styled.div`
   display: flex;
@@ -145,4 +144,4 @@ export const CardContainer = styled.div`
   @media(max-width: 925px){
     flex-direction: column;
   }
-`
+`;

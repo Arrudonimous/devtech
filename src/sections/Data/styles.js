@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
-
 export const DataBackground = styled.div`
   background-color: #F6F7F9;
   width: 100%;
-`
+`;
 
 export const DataContainer = styled.div`
   display: flex;
@@ -15,7 +14,7 @@ export const DataContainer = styled.div`
     flex-direction: column;
     padding: 47px 0px;
   }
-`
+`;
 
 export const DataInfo = styled.div`
   display: flex;
@@ -34,4 +33,4 @@ export const DataInfo = styled.div`
   @media(max-width: 925px){
     margin-bottom: 46px;
   }
-`
+`;

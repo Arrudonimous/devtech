@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export default styled.button`
   padding: 12px 32px;
   justify-content: center;
@@ -22,4 +21,4 @@ export default styled.button`
   &:active{
     background-color: #1579d1;
   }
-`
+`;

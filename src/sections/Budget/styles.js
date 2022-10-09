@@ -29,7 +29,7 @@ export const BudgetContainer = styled.div`
   @media(max-width: 925px){
     padding: 47px 66px;
   }
-`
+`;
 
 export const BudgetForm = styled.div`
   padding: 50px 74px;
@@ -47,7 +47,7 @@ export const BudgetForm = styled.div`
     background-color: #fff;
   }
 
-`
+`;
 
 export const Input = styled.input`
   padding: 9px 13px;
@@ -69,4 +69,4 @@ export const Input = styled.input`
     width: 100%;
   }
 
-`
+`;

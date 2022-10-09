@@ -1,6 +1,6 @@
 import GlobalStyles from '../../assets/themes/global';
 import {
-  Footer
+  Footer,
 } from './styles';
 import Header from '../Header';
 import Data from '../../sections/Data';
@@ -9,7 +9,6 @@ import About from '../../sections/About';
 import Budget from '../../sections/Budget';
 
 export default function App() {
-
   return (
     <>
       <GlobalStyles />
@@ -24,4 +23,3 @@ export default function App() {
     </>
   );
 }
-

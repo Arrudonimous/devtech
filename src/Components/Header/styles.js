@@ -17,7 +17,7 @@ export const Container = styled.header`
     padding: 43px;
   }
 
-`
+`;
 
 export const Nav = styled.nav`
   display: flex;
@@ -44,7 +44,7 @@ export const Nav = styled.nav`
     }
   }
 
-`
+`;
 
 export const LogoContainer = styled.div`
   display: flex;
@@ -64,7 +64,7 @@ export const LogoContainer = styled.div`
       font-size: 30px;
     }
   }
-`
+`;
 
 export const Line = styled.div`
   width: 100%;
@@ -76,7 +76,7 @@ export const Line = styled.div`
   @media(max-width: 925px){
     display: none;
   }
-`
+`;
 
 export const HeaderContainer = styled.div`
   margin-top: 85px;
@@ -97,7 +97,7 @@ export const HeaderContainer = styled.div`
       margin-top: 54px;
       flex-direction: column;
     }
-`
+`;
 
 export const HeaderContent = styled.div`
   width: 40%;
@@ -134,6 +134,4 @@ export const HeaderContent = styled.div`
     justify-content: center;
     align-items: center;
   }
-`
-
-
+`;

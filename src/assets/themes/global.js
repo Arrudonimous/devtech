@@ -1,8 +1,7 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
 
-//julio marcou presença aqui
   *{
     margin: 0;
     padding: 0;
@@ -20,4 +19,4 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 
-`
+`;
